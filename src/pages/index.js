@@ -7,14 +7,14 @@ import Layout from '../components/layout'
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "bradleywhite.com"
+        const siteDescription = "Welcome to the personal site of Bradley White"
 
         return (
             <Layout>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
+                        <title>{bradleywhite.com}</title>
+                        <meta name="bradleywhite.com" content={siteDescription} />
                 </Helmet>
 
                 <div id="main">
@@ -23,10 +23,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Welcome to my sharing space</h2>
                         </header>
-                        <p>I hope you enjoy my collection of interests, hobbies, and distractions<br />Integrated with <a href="https://conradlin.com/blog/posts/host-gatsbyjs-blog-with-notion-cms-and-netlify-for-free/" target="_blank">notion</a> as a CMS for demonstration purposes by <a href="https://conradlin.com" target="_blank">Conrad Lin</a></p>
-                        <ul className="actions">
-                            <li><a href="https://www.youtube.com/watch?v=dMYKXVf88J0" target="_blank" className="button">Learn More</a></li>
-                        </ul>
+                        <p>I hope you enjoy my collection of interests, hobbies, and distractions<br />Integrated with </p>
                     </section>
 
                     <section id="two">
