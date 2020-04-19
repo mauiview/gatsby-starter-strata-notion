@@ -10,8 +10,8 @@ class Header extends React.Component {
                 <div className="inner">
                     <Link to="/" className="image avatar"><img src={avatar} alt="" /></Link>
                     <a href="https://bradleywhite.com/blog" target="_blank">Blog</a><br /> 
-                    <a href="https://bradleywhite.com/about" target="_blank">About</a><br>
-                    <a href="https://bradleywhite.com/projects" target="_blank">Projects</a></br>
+                    <a href="https://bradleywhite.com/blog" target="_blank">About</a><br>
+                    <a href="https://bradleywhite.com/blog" target="_blank">Projects</a></br>
                 </div>
                 <Footer />
             </header>
