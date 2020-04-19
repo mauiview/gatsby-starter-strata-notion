@@ -7,8 +7,8 @@ import Layout from '../components/layout'
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "A Site by Bradley P. White"
-        const siteDescription = "A collection of my interests and explorations"
+        const siteTitle = "Bradleywhite.com"
+        const siteDescription = "Welcome to random musings by Brad White"
 
         return (
             <Layout>
@@ -21,12 +21,9 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>This is my journey using a starter for Gatsby.js V2, demonstrating successful integration with notion as a CMS</h2>
+                            <h2>Welcome to My Sharing Space</h2>
                         </header>
-                        <p>Based on the Strata site template, designed by HTML5 UP.<br />Integrated with <a href="https://conradlin.com/blog/posts/host-gatsbyjs-blog-with-notion-cms-and-netlify-for-free/" target="_blank">notion</a> as a CMS for demonstration purposes by <a href="https://conradlin.com" target="_blank">Conrad Lin</a></p>
-                        <ul className="actions">
-                            <li><a href="https://www.youtube.com/watch?v=dMYKXVf88J0" target="_blank" className="button">Learn More</a></li>
-                        </ul>
+                        <h2>There is more to life than my day job.  This is my latest project to ensure other distractions</h2>
                     </section>
 
                     <section id="two">
@@ -40,7 +37,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Do you want to get in touch? Send me your thoughts though this contact form and we can exchange ideas.</p>
+                        <p>Send me a message and we can catch up.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -57,18 +54,8 @@ class HomeIndex extends React.Component {
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        The White House<br />
-                                        Massillon, Ohio<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">lets.talk@bradleypwhite.com</a>
+                                        <a href="#">lets.talk@bradleywhite.com</a>
                                     </li>
                                 </ul>
                             </div>
