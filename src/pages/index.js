@@ -23,7 +23,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Welcome to My Sharing Space</h2>
                         </header>
-                        <h2>There is more to life than my day job.  This is my latest project to ensure other distractions</h2>
+                        <h2>There is more to life than my day job. This is my latest project to ensure other distractions</h2>
                     </section>
 
                     <section id="two">
