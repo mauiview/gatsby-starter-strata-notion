@@ -13,7 +13,9 @@ export default ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
-  )
+      )
+    }
+    
 export const query = graphql`
   query($slug: String!) {
     posts(slug: { eq: $slug }) {
