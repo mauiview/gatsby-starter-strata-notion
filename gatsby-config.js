@@ -5,6 +5,12 @@ module.exports = {
     description: "A Gatsby.js Starter based on Strata by HTML5 UP"
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-4749963-9",
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -36,6 +42,7 @@ module.exports = {
         shortname: `bradleywhite-com`
       }
     },
+    
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
