@@ -30,6 +30,12 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `bradleywhite-com`
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
