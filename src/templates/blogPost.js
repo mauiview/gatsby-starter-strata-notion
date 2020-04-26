@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { parseImageUrl } from 'notabase/src/utils'
+import { Disqus } from "gatsby-plugin-disqus"
 export default ({ data }) => {
   const { posts: { title, tags, publish_date, html, url, slug, desc, color, cover_image } } = data
 
@@ -28,5 +29,7 @@ export const query = graphql`
       color
       cover_image
     }
+    
   }
+  
 `
