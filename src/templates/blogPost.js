@@ -19,7 +19,7 @@ const PostTemplate = () => {
     </>
   )
 }
-
+export default PostTemplate
 export default ({ data }) => {
   const { posts: { title, tags, publish_date, html, url, slug, desc, color, cover_image } } = data
 
