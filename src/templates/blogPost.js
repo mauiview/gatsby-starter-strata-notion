@@ -14,20 +14,6 @@ export default ({ data }) => {
       </div>
     </Layout>
   )
-  let disqusConfig = {
-    url: `${config.siteUrl+location.pathname}`,
-    identifier: post.id,
-    title: post.title,
-  }
-  return (
-    <>
-      <h1>{post.title}</h1>
-      <CommentCount config={disqusConfig} placeholder={'...'} />
-      /* Post Contents */
-      <Disqus config={disqusConfig} />
-    </>
-  )
-}
 export const query = graphql`
   query($slug: String!) {
     posts(slug: { eq: $slug }) {
